@@ -1,6 +1,18 @@
 // ==== Challenge 1: Write your own closure ====
 // Write a simple closure of your own creation.  Keep it simple!
+function victorKingdom() {
+  const emperor = "Victor"
+  console.log(`Hello, this is ${emperor}.`)
 
+  function victorvillage() {
+    const potatofarmer = "Jason, the potato farmer"
+    console.log(`Hello, this is ${potatofarmer}.`)
+
+    function victorland() {
+      console.log(`I love the ${emperor} and ${potatofarmer}.`)
+    }victorland();
+  }victorvillage();
+}victorKingdom();
 
 /* STRETCH PROBLEMS, Do not attempt until you have completed all previous tasks for today's project files */
 
