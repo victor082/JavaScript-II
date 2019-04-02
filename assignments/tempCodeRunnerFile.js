@@ -1,0 +1,1 @@
+console.log(multiplyNums(2,10, multiply));
