@@ -29,9 +29,9 @@ function getLength(arr, cb) {
   // getLength passes the length of the array into the callback.
   return cb (arr);
 }
-getLength(items, function(pass){
-  console.log(pass);
-});
+let arrayLength = function(items) {
+  return items.length;
+}
 
 
 function last(arr, cb) {
