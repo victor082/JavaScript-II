@@ -1,1 +1,1 @@
-console.log(multiplyNums(2,10, multiply));
+console.log(arr[arr.length -1])
