@@ -1,6 +1,18 @@
 // ==== Challenge 1: Write your own closure ====
 // Write a simple closure of your own creation.  Keep it simple!
+function victorKingdom() { //Global scope
+  const emperor = "Victor" // const emperor assigned the string 'Victor'
+  console.log(`Hello, this is ${emperor}.`) // console logs 'hello, this is [emperor].'
 
+  function victorvillage() { 
+    const potatofarmer = "Jason, the potato farmer" //const potatofarmer assigned to the string 'Jason, the potato farmer'
+    console.log(`Hello, this is ${potatofarmer}.`) // console logs the statement
+
+    function victorland() { 
+      console.log(`I love the ${emperor} and ${potatofarmer}.`) // pulls the constant emperor and potatofarmer outside of this function by using a closure.
+    }victorland();
+  }victorvillage();
+}victorKingdom();
 
 /* STRETCH PROBLEMS, Do not attempt until you have completed all previous tasks for today's project files */
 
